@@ -37,4 +37,6 @@ The models used for image and video detection are available in the following lin
 ### NOTE
 Download the `.pth` file for **Image detection** and the `.pt` file for **Video detection** from [this link](https://drive.google.com/drive/folders/1LBowbYcON1L3uyqagmD1fQAjStxd8T27?usp=drive_link).
 
-
+![Screenshot (11)](https://github.com/user-attachments/assets/16bba869-3f88-4bc6-90f8-9dd65e13d469)
+![Screenshot (12)](https://github.com/user-attachments/assets/299dd0d7-5fbe-4687-8a9f-96060e4bfe01)
+![Screenshot (14)](https://github.com/user-attachments/assets/51969967-a22f-46a2-9bdb-540e533c5a86)

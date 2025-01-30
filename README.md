@@ -34,6 +34,7 @@ Make sure you have Python 3.6+ installed and use pip to install the dependencies
 3. Download the pre-trained models:
 The models used for image and video detection are available in the following links:
 
-- Download the `.pth` file for **Image detection** and the `.pt` file for **Video detection** from [this link](your-drive-link).
+### NOTE
+Download the `.pth` file for **Image detection** and the `.pt` file for **Video detection** from [this link](your-drive-link).
 
 

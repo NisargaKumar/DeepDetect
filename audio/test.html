@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Deepfake Detection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            color: white;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: flex-start;
+            background-color: transparent;
+            padding: 20px;
+            position: absolute;
+            top: 35px;
+            left: 50px;
+            z-index: 10;
+            width: auto;
+        }
+
+        nav a {
+            color: white;
+            /* Default color */
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00ffff;
+            /* Highlight the text on hover */
+            text-decoration: underline;
+            /* Underline on hover */
+        }
+
+        nav a.selected {
+            color: #00ffff;
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        .main {
+            background: url('assets/bgimage.14b90305.jpg') no-repeat center center/cover;
+            height: calc(100vh - 60px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            /* Align text to the left */
+            padding-top: 100px;
+            text-align: left;
+            padding-left: 70px;
+            /* Add space from left */
+            flex: 1;
+        }
+
+        .main h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            color: #00ffff;
+        }
+
+        .main h1 span {
+            color: white;
+        }
+
+        .main p {
+            font-size: 1.2rem;
+            width: 80%;
+            line-height: 1.8;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2af5a3;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="selected">HOME</a> <!-- Selected link -->
+        <a href="detect_audio.html">DETECT</a>
+    </nav>
+    <div class="main">
+        <h1>DEEP <span>FAKE</span></h1> <!-- Make "FAKE" white -->
+        <p>
+            DeepFake technology is incredibly advanced and can easily <br>
+            confuse humans between a real and a fake video. It has a <br>
+            great potential in entertainment, gaming, and other various <br>
+            fields if used responsibly. Our application provides you a<br>
+            platform were you can detect your own DeepFake video by<br>
+            uploading the real or fake video.
+        </p>
+    </div>
+    <footer>
+        &copy; Copyright Minal M, Nisarga K, Shameena, Kusuma S<br>
+        All Rights Reserved
+    </footer>
+</body>
+
+</html>
